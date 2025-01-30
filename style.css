@@ -1,0 +1,415 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Navy-Blue-HD-Backgrounds.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header {
+    
+    padding: 5px 0;
+    
+}
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e0e0e0;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 100px; /* Adjusted spacing */
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    
+    color: #e0e0e0;
+    font-weight: 500;
+}
+header .auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+header .auth-buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+header .auth-buttons .sign-in {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+header .auth-buttons .free-trial {
+    background-color: #ff4081;
+    color: #fff;
+    margin-right: auto;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    
+}
+.hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #e0e0e0;
+}
+.hero p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 20px 0;
+}
+.hero .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero .cta-buttons a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.hero .cta-buttons .enroll-now {
+    background-color: #ff4081;
+    color: #fff;
+}
+.hero .cta-buttons .learn-more {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+.search-courses {
+    text-align: center;
+    padding: 50px 0;
+   color:#e0e0e0
+}
+.search-courses input {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.search-courses button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4081;
+    color: #fff;
+    font-weight: 500;
+}
+.benefits {
+    text-align: center;
+    padding: 50px 0;
+   color: #e0e0e0;
+}
+.benefits h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e0e0e0;
+}
+.benefits p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 20px 0;
+}
+.benefits .benefit-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.benefits .benefit-item {
+    width: 200px;
+    text-align: left;
+}
+.benefits .benefit-item i {
+    font-size: 24px;
+    color: #ff4081;
+}
+.benefits .benefit-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin: 10px 0;
+}
+.benefits .benefit-item p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+.popular-courses {
+    text-align: center;
+    padding: 50px 0;
+   
+}
+.popular-courses h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e0e0e0;
+}
+.popular-courses p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 20px 0;
+}
+.popular-courses .course-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.popular-courses .course-item {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popular-courses .course-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.popular-courses .course-item a {
+    color: inherit;
+    display: block;
+}
+.popular-courses .course-item img {
+    width: 100%;
+    height: 250px;
+}
+.popular-courses .course-item .course-info {
+    padding: 20px;
+    text-align: left;
+    flex-grow: 1;
+}
+.popular-courses .course-item .course-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+}
+.popular-courses .course-item .course-info p {
+    font-size: 16px;
+    color: #666;
+}
+.popular-courses .course-item .course-info .course-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.popular-courses .course-item .course-info .course-meta .students {
+    font-size: 16px;
+    color: #666;
+}
+.popular-courses .course-item .course-price {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff4081;
+    text-align: right;
+}
+.instructor {
+    text-align: center;
+    padding: 50px 0;
+   
+}
+.instructor .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.instructor .content {
+    max-width: 50%;
+}
+.instructor .content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e0e0e0;
+}
+.instructor .content p {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 20px 0;
+}
+.instructor .content a {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #ff4081;
+    color: #fff;
+}
+.instructor img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+.testimonials {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(245, 245, 245, 0.8);
+}
+.testimonials h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+.testimonials p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+.testimonials .testimonial-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.testimonials .testimonial-item {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+.testimonials .testimonial-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonials .testimonial-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+}
+.testimonials .testimonial-item p {
+    font-size: 16px;
+    color: #666;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #e0e0e0;
+}
+footer p {
+    font-size: 16px;
+    color: #000;
+}
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .benefits .benefit-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .popular-courses .course-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonials .testimonial-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .instructor .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .instructor .content, .instructor img {
+        max-width: 100%;
+    }
+}
+
+  
+  .footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact{
+    color:#000;
+  }
+  .footer-links, .footer-social, .footer-contact {
+    margin: 20px;
+  }
+  
+  .footer-links ul, .footer-social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li, .footer-social ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-links a, .footer-social a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-social a {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .footer-social a:hover, .footer-links a:hover {
+    color:#ff4081;
+  }
+  
+  .footer-contact p {
+    margin: 8px 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+
+    padding-top: 15px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,287 @@
+<html>
+ <head>
+  <title>
+   Responsive Landing Page
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <nav>
+     <div class="logo">
+      SkillNova
+     </div>
+     <ul>
+      <li>
+       <a href="#">
+        Courses
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Teachers
+       </a>
+      </li>
+      <li>
+       <a href="#" onclick="certification()">
+        Certifications
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+     <div class="auth-buttons">
+        
+      <a class="sign-in" href="#" onclick="login()">
+       Sign In
+      </a>
+      <a class="free-trial" href="#">
+       Free Trial
+      </a>
+     </div>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="container">
+    <h1>
+     Develop your skills in a new and unique way
+    </h1>
+    <p>
+     Explore a transformative approach to skill development on our online learning platform. Experience a variety of learning experiences and elevate your mastery.
+    </p>
+    <div class="cta-buttons">
+     <a class="enroll-now" href="#">
+      Enroll Now
+     </a>
+     <a class="learn-more" href="#">
+      What’s SkillNova?
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="search-courses">
+   <div class="container">
+    <h2>
+     Search Courses
+    </h2>
+    <input placeholder="Search for over 50+ courses" type="text"/>
+    <button>
+     Search
+    </button>
+   </div>
+  </section>
+  <section class="benefits">
+   <div class="container">
+    <h2>
+     Benefits From Our Online Learning
+    </h2>
+    <p>
+     Explore the various benefits of our online learning platform.
+    </p>
+    <div class="benefit-items">
+     <div class="benefit-item">
+      <i class="fas fa-graduation-cap">
+      </i>
+      <h3>
+       Online Degrees
+      </h3>
+      <p>
+       Earn accredited degrees from the comfort of your home, opening doors to a world of possibilities.
+      </p>
+     </div>
+     <div class="benefit-item">
+      <i class="fas fa-book">
+      </i>
+      <h3>
+       Short Courses
+      </h3>
+      <p>
+       Gain specialized skills with our concise and focused short courses, designed for quick and effective learning.
+      </p>
+     </div>
+     <div class="benefit-item">
+      <i class="fas fa-chalkboard-teacher">
+      </i>
+      <h3>
+       Training From Experts
+      </h3>
+      <p>
+       Learn from industry-leading experts with years of experience and in-depth knowledge.
+      </p>
+     </div>
+     <div class="benefit-item">
+      <i class="fas fa-video">
+      </i>
+      <h3>
+       1.5k+ Video Courses
+      </h3>
+      <p>
+       Dive into a vast library of over 1.5k video courses covering various subjects, offering a unique learning experience.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="popular-courses">
+   <div class="container">
+    <h2>
+     Our Popular Courses
+    </h2>
+    <p>
+     Discover our most sought-after courses, carefully curated to meet the demands of today's learners. These programs are designed to set you up for success in every phase of your educational journey.
+    </p>
+    <div class="course-items">
+     <a class="course-item" href="#" onclick="v1()">
+      <img alt="Web Design course image" src="https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg"/>
+      <div class="course-info">
+       <h3>
+        Web Design &amp; Development
+       </h3>
+       <p>
+      
+        Learn the fundamentals of web design and development with hands-on projects and expert guidance.
+       </p>
+       <p> Duration: 6 Weeks </p>
+       <div class="course-meta">
+        <span class="students">
+         85 Students
+        </span>
+       </div>
+      </div>
+      <div class="course-price">
+       Rs 560.00
+      </div>
+     </a>
+     <a class="course-item" href="#" onclick="v2()">
+      <img alt="UI/UX Design course image" src="https://image.freepik.com/free-vector/3d-isometric-mobile-app-ui-ux-design-illustration-creating-design-user-interface-user-experience-application-development-concept-vector_73903-319.jpg"/>
+      <div class="course-info">
+       <h3>
+        Wireframing &amp; Prototyping
+       </h3>
+       <p>
+        Master the art of wireframing and prototyping to create intuitive and user-friendly designs.
+       </p>
+       <p> Duration: 4 Weeks </p>
+       <div class="course-meta">
+        <span class="students">
+         40 Students
+        </span>
+       </div>
+      </div>
+      <div class="course-price">
+       Rs 580.00
+      </div>
+     </a>
+     <a class="course-item" href="#" onclick="v3()">
+      <img alt="Data Science course image" src="https://www.thecrazyprogrammer.com/wp-content/uploads/2019/06/How-Python-Can-Help-Data-Science-Professionals.jpg"/>
+      <div class="course-info">
+       <h3>
+        Python For Data Science
+       </h3>
+       <p>
+        Unlock the power of Python for data analysis, visualization, and machine learning.
+       </p>
+       <p> Duration: 8 Weeks </p>
+       <div class="course-meta">
+        <span class="students">
+         50 Students
+        </span>
+       </div>
+      </div>
+      <div class="course-price">
+       Rs 432.00
+      </div>
+     </a>
+    </div>
+   </div>
+  </section>
+  <section class="instructor">
+   <div class="container">
+    <div class="content">
+     <h2>
+      If You Are A Certified Teacher Then Become An Instructor
+     </h2>
+     <p>
+      Unlock the opportunity to inspire and educate by joining our team of instructors. If you're a certified teacher, we invite you to share your expertise with learners worldwide.
+     </p>
+     <a class="enroll-now" href="#">
+      Become an Instructor
+     </a>
+    </div>
+    <img alt="Instructor image" src="https://cdni.iconscout.com/illustration/premium/thumb/online-teaching-3985677-3299328.png"/>
+   </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-sections">
+       
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook"> Facebook</i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"> Twitter</i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"> Instagram</i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"> Linkedin</i></a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p>Email: support@skillnova.com</p>
+          <p>Phone: +91 234 567 890</p>
+          <p>Address: 123 Learning Street, Knowledge City</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SkillNova. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+function login(){
+    window.location.href="login.html";
+}
+
+function v1(){
+    // Open the course video in a new tab
+    window.open("https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg", "_blank");
+
+ 
+}
+
+function v2(){
+    // Open the course video in a new tab
+    window.open("https://www.youtube.com/watch?v=JDcZBzb46ts&pp=ygUocHl0aG9uIGRhdGEgc2NpZW5jZSBmdWxsIGNvdXJzZSBwbGF5bGlzdA%3D%3D", "_blank");
+
+}
+
+function v3(){
+    // Open the course video in a new tab
+    window.open("https://www.youtube.com/watch?v=JDcZBzb46ts&pp=ygUocHl0aG9uIGRhdGEgc2NpZW5jZSBmdWxsIGNvdXJzZSBwbGF5bGlzdA%3D%3D", "_blank");
+
+   
+}
+function certification(){
+    window.location.href="certification.html";
+}
+
+
+  </script>
+ </body>
+</html>
